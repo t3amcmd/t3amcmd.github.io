@@ -1,11 +1,11 @@
 body {
     font-family: monospace;
     font-size: large;
-    background-color: #03045E;
+    background-color: #454372;
     overflow-x: hidden;
     }
    
-    #chat-container {
+    #chat-container { /* CHAT WINDOW COLOR */
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #CAF0F8;
+    background-color: #2F2963;
     }
     
     #chat-output {
@@ -51,7 +51,7 @@ body {
     align-self: flex-start;
     text-align: left;
     margin-right: auto;
-    background-color: #0077B6;
+    background-color: #890b6c;
     color: white;
     }
     
@@ -65,8 +65,8 @@ body {
     border: black;
     outline: none;
     margin-bottom: 20px;
-    background-color: #000000;
-    color: white;
+    background-color: white;
+    color: black;
     }
     
     @media (max-width: 500px) {
